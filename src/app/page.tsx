@@ -131,7 +131,7 @@ export default function Home() {
           <div className="inline-flex items-center gap-2 bg-white/5 px-5 py-2 rounded-full mb-8 border border-white/10 shadow-2xl backdrop-blur-md">
             <Sparkles className="w-4 h-4 text-amber-400" />
             <span className="text-sm font-medium tracking-wide text-gray-300">
-              AI-Powered ATS Optimizer · Python Backend
+              AI-Powered ATS Optimizer · Smart Analysis
             </span>
           </div>
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight">
@@ -143,7 +143,7 @@ export default function Home() {
             <strong className="text-gray-200">
               multiple job descriptions
             </strong>{" "}
-            (PDF or DOCX). Our Python engine extracts keywords, injects them
+            (PDF or DOCX). Our AI engine extracts keywords, injects them
             into your resume while preserving formatting, targets a{" "}
             <strong className="text-emerald-400">95%+</strong> ATS match score, and
             generates a tailored cover letter for each role.
@@ -318,7 +318,7 @@ export default function Home() {
                             d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
                           />
                         </svg>
-                        <span>Python Engine Analyzing...</span>
+                        <span>AI Engine Analyzing...</span>
                       </>
                     ) : (
                       <>
@@ -503,7 +503,7 @@ export default function Home() {
         {/* Footer */}
         <div className="text-center mt-16 mb-8">
           <p className="text-gray-600 text-xs tracking-widest uppercase">
-            ATS Max · Python + Next.js · Cosine Similarity Engine
+            ATS Max · Pro Analytics · AI Match Engine
           </p>
         </div>
       </div>
