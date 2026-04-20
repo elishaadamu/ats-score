@@ -118,12 +118,12 @@ function renderOptimizedTable() {
                 </span>
             </td>
             <td>
-                <a href="/download/${row.file}" class="btn btn-download" id="btn-cv-${row.job}">
+                <a href="${row.file}" download class="btn btn-download" id="btn-cv-${row.job}">
                     ${downloadIcon()} Resume
                 </a>
             </td>
             <td>
-                <a href="/download/${row.cover}" class="btn btn-cover" id="btn-cl-${row.job}">
+                <a href="${row.cover}" download class="btn btn-cover" id="btn-cl-${row.job}">
                     ${downloadIcon()} Cover Letter
                 </a>
             </td>
