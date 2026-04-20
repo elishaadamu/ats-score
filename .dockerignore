@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+.tmp_ats
+.tmp_test
+*.docx
+*.pdf
+*.pyc
+__pycache__
+.env
+.env.local

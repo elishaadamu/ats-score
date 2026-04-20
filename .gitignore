@@ -1,0 +1,58 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# temp files
+.tmp_ats/
+.tmp_test/
+
+# python
+__pycache__/
+*.pyc
+
+# user uploads (keep only the backend script, not test docx/pdf)
+Jos_cv.docx
+J*.docx
+CV_95Match_*.docx
+CoverLetter_*.docx
+ATS_*.docx
+tailored_resume_*.docx
+cover_letter_*.docx
