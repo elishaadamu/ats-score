@@ -171,11 +171,10 @@ export default function Home() {
                     className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-20"
                   />
                   <div
-                    className={`h-52 rounded-3xl border-2 border-dashed transition-all duration-300 flex flex-col items-center justify-center p-6 text-center ${
-                      resume
+                    className={`h-52 rounded-3xl border-2 border-dashed transition-all duration-300 flex flex-col items-center justify-center p-6 text-center ${resume
                         ? "border-blue-400 bg-blue-400/10 shadow-[0_0_30px_rgba(59,130,246,0.15)]"
                         : "border-gray-600 group-hover:border-blue-400 group-hover:bg-blue-400/5"
-                    }`}
+                      }`}
                   >
                     {resume ? (
                       <>
@@ -212,11 +211,10 @@ export default function Home() {
                     className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-20"
                   />
                   <div
-                    className={`h-52 rounded-3xl border-2 border-dashed transition-all duration-300 flex flex-col items-center justify-center p-6 text-center ${
-                      jds.length > 0
+                    className={`h-52 rounded-3xl border-2 border-dashed transition-all duration-300 flex flex-col items-center justify-center p-6 text-center ${jds.length > 0
                         ? "border-purple-400 bg-purple-400/10 shadow-[0_0_30px_rgba(168,85,247,0.15)]"
                         : "border-gray-600 group-hover:border-purple-400 group-hover:bg-purple-400/5"
-                    }`}
+                      }`}
                   >
                     {jds.length > 0 ? (
                       <>
@@ -252,31 +250,28 @@ export default function Home() {
                 <div className="flex bg-gray-900/50 p-1.5 rounded-full border border-gray-700/50">
                   <button
                     onClick={() => setSelectedTemplate("1")}
-                    className={`px-6 py-2 rounded-full text-sm font-bold transition-all ${
-                      selectedTemplate === "1"
+                    className={`px-6 py-2 rounded-full text-sm font-bold transition-all ${selectedTemplate === "1"
                         ? "bg-blue-500 text-white shadow-lg"
                         : "text-gray-400 hover:text-gray-200"
-                    }`}
+                      }`}
                   >
                     Template 1 (Classic)
                   </button>
                   <button
                     onClick={() => setSelectedTemplate("2")}
-                    className={`px-6 py-2 rounded-full text-sm font-bold transition-all ${
-                      selectedTemplate === "2"
+                    className={`px-6 py-2 rounded-full text-sm font-bold transition-all ${selectedTemplate === "2"
                         ? "bg-purple-500 text-white shadow-lg"
                         : "text-gray-400 hover:text-gray-200"
-                    }`}
+                      }`}
                   >
                     Template 2 (Modern)
                   </button>
                   <button
                     onClick={() => setSelectedTemplate("3")}
-                    className={`px-6 py-2 rounded-full text-sm font-bold transition-all ${
-                      selectedTemplate === "3"
+                    className={`px-6 py-2 rounded-full text-sm font-bold transition-all ${selectedTemplate === "3"
                         ? "bg-emerald-500 text-white shadow-lg"
                         : "text-gray-400 hover:text-gray-200"
-                    }`}
+                      }`}
                   >
                     Template 3 (Executive)
                   </button>
@@ -289,11 +284,10 @@ export default function Home() {
                   id="optimize-btn"
                   onClick={optimizeResumes}
                   disabled={!resume || jds.length === 0 || isOptimizing}
-                  className={`relative overflow-hidden group px-10 py-4 rounded-full font-bold text-lg tracking-wide transition-all duration-300 ${
-                    !resume || jds.length === 0
+                  className={`relative overflow-hidden group px-10 py-4 rounded-full font-bold text-lg tracking-wide transition-all duration-300 ${!resume || jds.length === 0
                       ? "bg-gray-800 text-gray-500 cursor-not-allowed border border-gray-700"
                       : "bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 text-white hover:scale-105 shadow-[0_0_50px_rgba(139,92,246,0.5)] hover:shadow-[0_0_70px_rgba(139,92,246,0.7)]"
-                  }`}
+                    }`}
                 >
                   <div className="flex items-center gap-2">
                     {isOptimizing ? (
@@ -351,7 +345,7 @@ export default function Home() {
                   </h2>
                   <p className="text-gray-400 mt-2">
                     {results.length} job description
-                    {results.length > 1 ? "s" : ""} analyzed. ATS resumes
+                    {results.length > 1 ? "s" : ""}  analyzed. ATS resumes
                     &amp; cover letters generated.
                   </p>
                 </div>
